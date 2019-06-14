@@ -4,6 +4,8 @@ from random import gauss, seed
 import matplotlib.pyplot as plt
 import pandas as pd
 
+__author__ = "Andrew Vaillancourt"
+
 
 seed(0)
 start_time = time()
@@ -42,7 +44,7 @@ opt_value = exp(-r * years) * sum([max(path[-1] - K, 0) for path in paths]) / nu
 
 if csv_out:
     df = pd.DataFrame(list(zip(*paths))).add_prefix('sim')
-    df.to_csv('./q2_out.csv', index=False)
+    df.to_csv('./mc_out.csv', index=False)
 
 ex_time = time() - start_time
 

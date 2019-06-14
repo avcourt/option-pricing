@@ -1,5 +1,7 @@
 import numpy as np
 
+__author__ = "Andrew Vaillancourt"
+
 
 def bin_opt_tree(S0, K, T, r, sigma, N, show_tree=False):
     dt = T/N

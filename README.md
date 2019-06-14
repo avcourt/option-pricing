@@ -4,6 +4,8 @@ I included 3 programs which in turn vary `sigma`, `number of steps`, and `strike
 ### Monte Carlo
 By default, this program will output a matplot chart of all the random walks, as well as a `.csv` file containing the same results. Both of these features can be disabled by changing the booleans `plot` and `csv_out` to False.
 
+![Random Walks](monte-carlo/plots/1.1.png)
+
 ### Run
 Make sure you have Python3.6 or higher installed, then:
 
