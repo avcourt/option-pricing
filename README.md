@@ -1,4 +1,5 @@
-## Binary Lattice
+## American Options Pricing
+### Binary Lattice
 I included 3 programs which in turn vary `sigma`, `number of steps`, and `strike value`. These programs can print the lattice to `stdout` for visualization. This can be enabled/disabled by toggling the `print_tree` boolean. As submitted, this feature is disabled, as it is more useful at smaller numbers of steps.
 
 ### Monte Carlo
