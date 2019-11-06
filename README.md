@@ -11,7 +11,7 @@ By default, this program will output a [matplotlib](https://matplotlib.org) char
 Make sure you have Python3.6 or higher installed, then:
 
 `$ pip3 install -r requirements.txt`  
-`$ python3 <q1|q2>py`
+`$ python3 <program_name>.py`
 
 ### Clean
 `$ pip3 uninstall -r requirements.txt`
